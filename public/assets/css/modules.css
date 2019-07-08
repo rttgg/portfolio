@@ -1826,7 +1826,7 @@
 		color: #fff;
 		height: 100%;
 		left: 0;
-		overflow-y: auto;
+		overflow-x: auto;
 		position: fixed;
 		text-align: right;
 		top: 0;
@@ -1899,7 +1899,7 @@
 			top: 0;
 		}
 
-	#nav ul {
+	/* #nav ul {
 		list-style: none;
 		padding-left: 0;
 		margin-bottom: 0;
@@ -1945,7 +1945,7 @@
 
 					#nav ul li a.active span:before {
 						color: #e27689;
-					}
+					} */
 
 /* Footer */
 
@@ -2110,8 +2110,26 @@
 				margin-bottom: 20px;
 			}
 
-		/* Header */
 
+
+
+			#nav {
+				overflow: hidden;
+				background-color: #333;
+				font-family: Arial;
+			}
+			
+			/* Links inside the navbar */
+			#nav a {
+				float: left;
+				font-size: 16px;
+				color: white;
+				text-align: center;
+				padding: 14px 16px;
+				text-decoration: none;
+			}
+		/* Header */
+/* 
 			#header {
 				width: 20%;
 			}
@@ -2135,7 +2153,7 @@
 						left: 100%;
 						margin-left: -1.25em;
 						line-height: 2.25em;
-					}
+					} */
 
 		/* Footer */
 
@@ -2235,9 +2253,9 @@
 				margin: 1.5em 1.25em 1.25em 1.25em;
 			}
 
-			#nav ul li a {
+			/* #nav ul li a {
 				padding: 0.5em 1.25em 0.5em 1.25em;
-			}
+			} */
 
 			#headerToggle {
 				-moz-backface-visibility: hidden;

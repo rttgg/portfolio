@@ -61,3 +61,6 @@ Start time: 7:49pm
 Finish time: 7:40pm
 
 Actual time needed to complete: 31min
+
+reference 
+ for slideshow got it from: https://www.w3schools.com/howto/howto_js_slideshow.asp
